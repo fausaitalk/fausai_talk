@@ -13,8 +13,9 @@ object Demo02 {
     val intMax = Int.MaxValue
     val MinValue = Int.MinValue
 
+    //val num3 = 21474836470 // 超出了Int范围，报错
+
     println(s"Int类型最大值为：$intMax，最小值为：$MinValue")
 
-    //val num3 = 21474836470 // 超出了Int范围，报错
   }
 }
