@@ -16,7 +16,7 @@ object Demo06 {
     var b: Baby = null // b 是引用类型
     //var c: Char = null //错误 [Int， Float，Char等等都不行]
 
-    returnNothing
+    returnNothing()
   }
 
   def returnUnit(): Unit = {
